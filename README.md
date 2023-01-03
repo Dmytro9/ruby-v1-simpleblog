@@ -15,9 +15,13 @@
 - `bundle install`
 - `rails s` / `rails server`
 
-### Cmd and syntax
+### Cmd and syntax and some tips
 
 - `rails g controller` - generate a controller
 - <code>def index
   ...
   end</code> - defining a function / method
+
+- <b>app</b> - the main folder which contains views, models and controllers
+- `config/routes.rb` - specify your routes here
+- `get 'about' => 'pages#about'` - in router means GET request to `about` route/page and call `pages` controller and `about` view
